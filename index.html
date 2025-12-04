@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="PRNTFRM - Local 3D printing services for Australian businesses. Quality manufacturing, fast turnaround, and local support.">
-    <title>PRNTFRM | Australian 3D Printing Services</title>
+    <meta name="description" content="PRNTFRM - Premium 3D printed toys, vases, and furniture made in Sydney's Eastern Suburbs. Local Australian manufacturing.">
+    <title>PRNTFRM | 3D Printed Products - Sydney</title>
     <style>
         /* CSS Reset and Base Styles */
         *, *::before, *::after {
@@ -264,18 +264,18 @@
             font-size: 0.95rem;
         }
 
-        /* Services Section */
-        .services {
+        /* Products Section */
+        .products {
             background-color: var(--color-bg-primary);
         }
 
-        .services-grid {
+        .products-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
         }
 
-        .service-card {
+        .product-card {
             background-color: var(--color-bg-secondary);
             padding: 2rem;
             border-radius: 16px;
@@ -284,24 +284,24 @@
             transition: transform var(--transition), border-color var(--transition);
         }
 
-        .service-card:hover {
+        .product-card:hover {
             transform: translateY(-5px);
             border-color: var(--color-accent);
         }
 
-        .service-icon {
-            font-size: 3rem;
+        .product-icon {
+            font-size: 4rem;
             margin-bottom: 1rem;
             display: block;
         }
 
-        .service-card h3 {
+        .product-card h3 {
             font-size: 1.3rem;
-            margin-bottom: 1rem;
+            margin-bottom: 0.75rem;
             color: var(--color-text-primary);
         }
 
-        .service-card p {
+        .product-card p {
             color: var(--color-text-secondary);
             font-size: 0.95rem;
         }
@@ -319,19 +319,15 @@
 
         .contact-info h3 {
             font-size: 1.5rem;
-            margin-bottom: 1.5rem;
+            margin-bottom: 1rem;
             color: var(--color-text-primary);
-        }
-
-        .contact-info p {
-            color: var(--color-text-secondary);
-            margin-bottom: 2rem;
         }
 
         .contact-details {
             display: flex;
             flex-direction: column;
             gap: 1rem;
+            margin-bottom: 1.5rem;
         }
 
         .contact-item {
@@ -349,6 +345,21 @@
 
         .contact-item a {
             color: var(--color-accent);
+        }
+
+        /* Map Section */
+        .map-container {
+            border-radius: 16px;
+            overflow: hidden;
+            border: 1px solid var(--color-border);
+            height: 300px;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+            filter: grayscale(100%) invert(92%) contrast(83%);
         }
 
         .contact-form {
@@ -490,7 +501,7 @@
                 padding: 1rem 1.5rem;
             }
 
-            .services-grid {
+            .products-grid {
                 grid-template-columns: 1fr;
             }
 
@@ -540,7 +551,7 @@
             </button>
             <ul class="nav-links" role="list">
                 <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
+                <li><a href="#products">Products</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -551,11 +562,11 @@
         <section class="hero" aria-labelledby="hero-heading">
             <div class="hero-content">
                 <h1 id="hero-heading">
-                    <span class="highlight">Australian-Made</span> 3D Printing<br>
-                    for Australian Businesses
+                    <span class="highlight">3D Printed</span> Products<br>
+                    Made in Sydney
                 </h1>
-                <p>Supporting local industry with precision manufacturing, fast turnaround, and dedicated customer service. From prototype to production, we're your local 3D printing partner.</p>
-                <a href="#contact" class="hero-cta">Get in Touch</a>
+                <p>Quality 3D printed toys, vases, and furniture. Designed and manufactured locally in Sydney's Eastern Suburbs.</p>
+                <a href="#contact" class="hero-cta">Shop Now</a>
             </div>
         </section>
 
@@ -564,59 +575,52 @@
             <div class="section-container">
                 <div class="section-header">
                     <h2 id="about-heading">About PRNTFRM</h2>
-                    <p>Your trusted local partner for professional 3D printing services across Australia</p>
+                    <p>Local 3D printing from Sydney's Eastern Suburbs</p>
                 </div>
                 <div class="about-content">
                     <div class="about-text">
-                        <p>PRNTFRM is a proudly Australian 3D printing business dedicated to supporting local enterprises with high-quality additive manufacturing solutions. Based in Australia, we understand the unique needs of Australian businesses and are committed to providing reliable, accessible manufacturing services.</p>
-                        <p>Our mission is simple: to empower Australian businesses with cutting-edge 3D printing technology while keeping manufacturing local. By choosing PRNTFRM, you're not just getting quality parts—you're supporting the Australian economy and reducing your supply chain complexity.</p>
-                        <p>Whether you're a startup needing rapid prototypes or an established business requiring production-quality parts, we're here to help you bring your ideas to life with precision and care.</p>
+                        <p>We design and manufacture premium 3D printed products right here in Sydney. Supporting Australian businesses and homes with unique, locally-made items.</p>
                     </div>
                     <div class="about-features">
                         <div class="feature-card">
-                            <h3>🇦🇺 100% Australian</h3>
-                            <p>Locally owned and operated, supporting Australian businesses and jobs.</p>
+                            <h3>🇦🇺 Made in Sydney</h3>
+                            <p>Locally designed and manufactured in the Eastern Suburbs.</p>
                         </div>
                         <div class="feature-card">
-                            <h3>⚡ Fast Turnaround</h3>
-                            <p>Quick delivery times without the delays of overseas shipping.</p>
+                            <h3>⚡ Fast Delivery</h3>
+                            <p>Quick turnaround with local shipping.</p>
                         </div>
                         <div class="feature-card">
-                            <h3>🎯 Quality Focus</h3>
-                            <p>Precision manufacturing with rigorous quality control standards.</p>
+                            <h3>🎯 Quality First</h3>
+                            <p>Premium materials and precise manufacturing.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Services Section -->
-        <section id="services" class="services" aria-labelledby="services-heading">
+        <!-- Products Section -->
+        <section id="products" class="products" aria-labelledby="products-heading">
             <div class="section-container">
                 <div class="section-header">
-                    <h2 id="services-heading">Our Services</h2>
-                    <p>Comprehensive 3D printing solutions tailored to your business needs</p>
+                    <h2 id="products-heading">Our Products</h2>
+                    <p>Premium 3D printed products for your home and business</p>
                 </div>
-                <div class="services-grid">
-                    <article class="service-card">
-                        <span class="service-icon" aria-hidden="true">🔧</span>
-                        <h3>Rapid Prototyping</h3>
-                        <p>Turn your concepts into tangible prototypes quickly. Perfect for testing designs, fit checks, and presentations before committing to full production.</p>
+                <div class="products-grid">
+                    <article class="product-card">
+                        <span class="product-icon" aria-hidden="true">🧸</span>
+                        <h3>Toys</h3>
+                        <p>Fun, safe, and durable 3D printed toys. Perfect for gifts and collectors.</p>
                     </article>
-                    <article class="service-card">
-                        <span class="service-icon" aria-hidden="true">⚙️</span>
-                        <h3>Production Parts</h3>
-                        <p>Small to medium batch production runs with consistent quality. Ideal for custom components, replacement parts, and specialty items.</p>
+                    <article class="product-card">
+                        <span class="product-icon" aria-hidden="true">🏺</span>
+                        <h3>Vases</h3>
+                        <p>Modern decorative vases in unique geometric designs for any space.</p>
                     </article>
-                    <article class="service-card">
-                        <span class="service-icon" aria-hidden="true">📐</span>
-                        <h3>Design Consultation</h3>
-                        <p>Expert guidance on optimizing your designs for 3D printing. We help ensure your parts are manufacturable and cost-effective.</p>
-                    </article>
-                    <article class="service-card">
-                        <span class="service-icon" aria-hidden="true">🏭</span>
-                        <h3>Custom Solutions</h3>
-                        <p>Tailored manufacturing solutions for unique business requirements. From jigs and fixtures to custom enclosures and brackets.</p>
+                    <article class="product-card">
+                        <span class="product-icon" aria-hidden="true">🪑</span>
+                        <h3>Furniture</h3>
+                        <p>Modular furniture pieces and accessories. Functional and stylish.</p>
                     </article>
                 </div>
             </div>
@@ -627,12 +631,11 @@
             <div class="section-container">
                 <div class="section-header">
                     <h2 id="contact-heading">Contact Us</h2>
-                    <p>Ready to start your project? Get in touch with our team</p>
+                    <p>Get in touch or visit us in Sydney</p>
                 </div>
                 <div class="contact-content">
                     <div class="contact-info">
-                        <h3>Let's Talk</h3>
-                        <p>We'd love to hear about your project. Whether you need a quick quote, have questions about our services, or want to discuss a custom solution, our team is here to help.</p>
+                        <h3>Find Us</h3>
                         <div class="contact-details">
                             <div class="contact-item">
                                 <span class="contact-item-icon" aria-hidden="true">📧</span>
@@ -644,8 +647,17 @@
                             </div>
                             <div class="contact-item">
                                 <span class="contact-item-icon" aria-hidden="true">📍</span>
-                                <span>Location: Australia</span>
+                                <span>Sydney Eastern Suburbs, NSW</span>
                             </div>
+                        </div>
+                        <div class="map-container">
+                            <iframe 
+                                src="https://www.openstreetmap.org/export/embed.html?bbox=151.2000%2C-33.9200%2C151.3200%2C-33.8400&amp;layer=mapnik&amp;marker=-33.8800%2C151.2600"
+                                title="Map showing Sydney Eastern Suburbs location"
+                                loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                                allowfullscreen>
+                            </iframe>
                         </div>
                     </div>
                     <form class="contact-form" action="#" method="post" aria-label="Contact form">
