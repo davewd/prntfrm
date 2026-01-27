@@ -31,6 +31,16 @@ npm run build
 
 The built files will be in the `dist` directory.
 
+## Deployment
+
+This project is automatically deployed to GitHub Pages using GitHub Actions. When changes are pushed to the `main` branch, the workflow will:
+
+1. Install dependencies
+2. Build the project
+3. Deploy the `dist` folder to GitHub Pages
+
+The site is accessible at [prntfrm.com](https://prntfrm.com).
+
 ### Preview Production Build
 
 ```bash
