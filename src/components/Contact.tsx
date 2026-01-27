@@ -3,7 +3,9 @@ export default function Contact() {
     <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-800">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Contact Us</h2>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
+            Contact Us
+          </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-lg">
             Get in touch with our small print farm
           </p>
@@ -17,8 +19,11 @@ export default function Contact() {
                   📧
                 </span>
                 <span>
-                  Email:{' '}
-                  <a href="mailto:hello@prntfrm.com" className="text-accent hover:text-accent-light">
+                  Email:{" "}
+                  <a
+                    href="mailto:hello@prntfrm.com"
+                    className="text-accent hover:text-accent-light"
+                  >
                     hello@prntfrm.com
                   </a>
                 </span>
@@ -28,8 +33,11 @@ export default function Contact() {
                   📞
                 </span>
                 <span>
-                  Phone:{' '}
-                  <a href="tel:+61400000000" className="text-accent hover:text-accent-light">
+                  Phone:{" "}
+                  <a
+                    href="tel:+61400000000"
+                    className="text-accent hover:text-accent-light"
+                  >
                     +61 400 000 000
                   </a>
                 </span>
@@ -96,6 +104,5 @@ export default function Contact() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-

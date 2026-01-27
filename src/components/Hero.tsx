@@ -12,8 +12,9 @@ export default function Hero() {
           Based in Australia
         </h1>
         <p className="text-lg sm:text-xl md:text-2xl text-gray-400 max-w-3xl mx-auto mb-8">
-          We're a small, passionate print farm creating quality 3D printed products right here in Australia. 
-          Supporting local communities with unique, locally-made items.
+          We're a small, passionate print farm creating quality 3D printed
+          products right here in Australia. Supporting local communities with
+          unique, locally-made items.
         </p>
         <a
           href="#contact"
@@ -23,6 +24,5 @@ export default function Hero() {
         </a>
       </div>
     </section>
-  )
+  );
 }
-

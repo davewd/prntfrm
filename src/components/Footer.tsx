@@ -6,10 +6,10 @@ export default function Footer() {
           PRNT<span className="text-accent">FRM</span>
         </div>
         <p className="text-gray-400 text-sm">
-          &copy; {new Date().getFullYear()} PRNTFRM. All rights reserved. Proudly Australian.
+          &copy; {new Date().getFullYear()} PRNTFRM. All rights reserved.
+          Proudly Australian.
         </p>
       </div>
     </footer>
-  )
+  );
 }
-

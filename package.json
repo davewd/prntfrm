@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "deploy:www": "gh-pages -d dist --cname prntfrm.com",
     "deploy:dd": "gh-pages -d dist --cname www.prntfrm.com",
-    "deploy": "npm run deploy:www && npm run deploy:dd",
+    "deploy": "npm run deploy:www && npm run deploy:dd"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -33,4 +33,3 @@
     "vite": "^7.3.1"
   }
 }
-
