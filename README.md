@@ -82,4 +82,4 @@ prntfrm/
 - Modern UI with dark theme
 - Mobile-friendly navigation
 - Contact form
-- Accessibility features
+- Accessibility features 
